@@ -15,7 +15,7 @@ apt-key fingerprint OEBFCD88
 add-apt-repository \
     "deb [arch=amd64] https://download.docker.com/linux/ubuntu/ \
     $ (lab_release -ca) \
-    stable
+    stable"
 
 apt-get update
 
